@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/imagemum"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/imagemdois"
+        android:scaleType="centerCrop"/>
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/imagemtres"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/imagemquatro"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        app:srcCompat="@drawable/imagemdois"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/imagemquatro" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/imagemum" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/imagemtres" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/imagemtres" />
+
+</GridLayout>
